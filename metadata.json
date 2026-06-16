@@ -1,0 +1,8 @@
+{
+  "name": "JUST 2 FIT Gym",
+  "description": "Premium fitness gym in Paharganj, New Delhi, featuring modern equipment, certified trainers, and personalized guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
