@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Check, ShieldAlert, Award, Star } from "lucide-react";
 import { BRAND_INFO } from "../data";
+import gymStrengthArea from "../assets/images/gym_strength_area_1781514183374.jpg";
 
 export default function AboutUs() {
   return (
@@ -34,7 +35,7 @@ export default function AboutUs() {
             {/* Overlapping small picture */}
             <div className="absolute -bottom-8 -right-4 w-48 sm:w-64 aspect-video rounded-xl overflow-hidden border-4 border-zinc-950 shadow-2xl hidden sm:block">
               <img
-                src="/src/assets/images/gym_strength_area_1781514183374.jpg"
+                src={gymStrengthArea}
                 alt="Strength Equipment Area"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

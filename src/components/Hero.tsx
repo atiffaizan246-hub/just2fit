@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { Phone, ArrowRight, Star, Clock, MapPin } from "lucide-react";
 import { BRAND_INFO } from "../data";
+import heroBg from "../assets/images/gym_hero_bg_1781514165897.jpg";
 
 interface HeroProps {
   onJoinClick: () => void;
@@ -21,7 +22,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
       {/* Background Image with Rich Overlays */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/gym_hero_bg_1781514165897.jpg"
+          src={heroBg}
           alt="JUST 2 FIT Gym Interior"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center opacity-45 scale-105 animate-pulse-slow"

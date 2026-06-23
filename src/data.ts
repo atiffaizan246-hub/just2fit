@@ -1,4 +1,8 @@
 import { FeatureItem, FacilityItem, TestimonialItem, MembershipPlan, GalleryItem } from "./types";
+import gymHeroBg from "./assets/images/gym_hero_bg_1781514165897.jpg";
+import gymCardioZone from "./assets/images/gym_cardio_zone_1781514200229.jpg";
+import gymStrengthArea from "./assets/images/gym_strength_area_1781514183374.jpg";
+import gymTrainerAssist from "./assets/images/gym_trainer_assist_1781514216308.jpg";
 
 export const BRAND_INFO = {
   name: "JUST 2 FIT - GYM",
@@ -68,14 +72,14 @@ export const FACILITIES: FacilityItem[] = [
     id: "cardio",
     name: "Cardio Zone",
     description: "High-spec treadmills, spin bikes, and cross-trainers fitted with telemetry interfaces to track calories, heart rate, and workouts.",
-    image: "/src/assets/images/gym_cardio_zone_1781514200229.jpg",
+    image: gymCardioZone,
     iconName: "Activity",
   },
   {
     id: "strength",
     name: "Strength Training Area",
     description: "Equipped with pinpointed pin-select machines and custom-designed plate loaders to safely isolate and bulk various muscle groups.",
-    image: "/src/assets/images/gym_strength_area_1781514183374.jpg",
+    image: gymStrengthArea,
     iconName: "Flame",
   },
   {
@@ -96,7 +100,7 @@ export const FACILITIES: FacilityItem[] = [
     id: "personal",
     name: "Personal Training Studio",
     description: "Private customized training sessions from our top tier certified coaches designed explicitly around your body goals and nutrition habits.",
-    image: "/src/assets/images/gym_trainer_assist_1781514216308.jpg",
+    image: gymTrainerAssist,
     iconName: "UserCheck",
   },
   {
@@ -222,25 +226,25 @@ export const GALLERY: GalleryItem[] = [
     id: "g1",
     title: "Main Workout Area",
     category: "Workout",
-    image: "/src/assets/images/gym_hero_bg_1781514165897.jpg",
+    image: gymHeroBg,
   },
   {
     id: "g2",
     title: "Premium Cardio Equipment",
     category: "Cardio",
-    image: "/src/assets/images/gym_cardio_zone_1781514200229.jpg",
+    image: gymCardioZone,
   },
   {
     id: "g3",
     title: "Heavy Weight Training Area",
     category: "Weights",
-    image: "/src/assets/images/gym_strength_area_1781514183374.jpg",
+    image: gymStrengthArea,
   },
   {
     id: "g4",
     title: "Trainer Assisting Members",
     category: "Trainers",
-    image: "/src/assets/images/gym_trainer_assist_1781514216308.jpg",
+    image: gymTrainerAssist,
   },
   {
     id: "g5",
